@@ -1,0 +1,118 @@
+@media screen and (max-width: 1000px) {
+  .about-pic {
+    left: 7% !important;
+  }
+  .services {
+    font-size: 12px;
+  }
+  .services-img-icon {
+    width: 50px !important;
+    height: 50px !important;
+    top: 160px !important;
+  }
+  .services-img-icon .cross {
+    top: 10px !important;
+    left: 10px !important;
+    font-size: 28px !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .section-skills {
+    height: 240vh !important;
+  }
+  .section-skills-card {
+    float: none !important;
+    height: 350px !important;
+    width: 100% !important;
+  }
+  .about {
+    height: 160vh !important;
+  }
+  .about-content {
+    top: 550px !important;
+    width: 100% !important;
+    left: 0 !important;
+    text-align: center;
+  }
+  .about-pic {
+    left: 25% !important;
+  }
+  .products {
+    height: 350vh !important;
+  }
+  .products-content {
+    width: 100% !important;
+    text-align: center;
+    left: 0 !important;
+  }
+  .products .one {
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center;
+  }
+  .products .two {
+    top: 50% !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center;
+  }
+  .products .three {
+    top: 70% !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center;
+  }
+  .services {
+    height: 300vh !important;
+  }
+  .services-img span {
+    margin-left: 0 !important;
+  }
+  .services .one {
+    left: 10% !important;
+    width: 80% !important;
+    text-align: center;
+  }
+  .services .two {
+    top: 40% !important;
+    left: 10% !important;
+    width: 80% !important;
+    text-align: center;
+  }
+  .services .three {
+    top: 70% !important;
+    left: 10% !important;
+    width: 80% !important;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    height: 120vh !important;
+  }
+  .footer-icon {
+    left: 7% !important;
+  }
+  .footer-icon .icon {
+    font-size: 20px !important;
+  }
+  .footer-icon h1 {
+    font-size: 15px !important;
+  }
+  .footer-input {
+    left: 47% !important;
+  }
+  .copy h2 {
+    left: 20% !important;
+    font-size: 10px !important;
+  }
+  .about-pic {
+    left: 10% !important;
+  }
+  .services-img-icon {
+    left: 44% !important;
+  }
+}
+/*# sourceMappingURL=media.css.map */

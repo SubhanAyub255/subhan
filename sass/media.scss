@@ -1,0 +1,141 @@
+@media screen and (max-width: 1000px) {
+   .about{
+       &-pic{
+           left: 7% !important;
+       }
+   }
+   .services {
+       font-size: 12px;
+       &-img{
+           &-icon{
+               width: 50px !important;
+               height: 50px !important;
+               top:160px !important ;
+               .cross{
+                   top: 10px !important;
+                   left: 10px !important;
+                   font-size: 28px !important;
+               }
+           }
+       }
+   }
+ 
+}
+@media screen and (max-width: 800px){
+    .section-skills{
+        height: 240vh !important;
+        &-card{
+            // display: block;
+            float: none !important;
+            height: 350px !important;
+            width: 100% !important;
+        }
+    }
+    .about{
+        height: 160vh !important;
+        // &-pic{
+        //     width: 80% !important;
+        //     left: -20% !important;
+        //     &-one{
+        //         width: 100% !important;
+        //     }
+        // }
+        &-content{
+            top: 550px !important;
+            width: 100% !important;
+            left: 0 !important;
+            text-align: center;
+        }
+        &-pic{
+            left: 25% !important;
+        }
+    }
+    .products{
+        height: 350vh !important;
+        &-content{
+            width: 100% !important;
+            text-align: center;
+            left: 0 !important;
+        }
+        .one{
+            left: 0 !important;
+            width: 100% !important;
+            text-align: center;
+        }
+        .two{
+            top: 50% !important;
+            left: 0 !important;
+            width: 100% !important;
+            text-align: center;
+        }
+        .three{
+            top: 70% !important;
+            left: 0 !important;
+            width: 100% !important;
+            text-align: center;
+        }
+    }
+    .services{
+        height: 300vh !important;
+        &-img{
+            span{
+                margin-left: 0 !important;
+            }
+        }
+        .one{
+            left: 10% !important;
+            width: 80% !important;
+            text-align: center;
+        }
+        .two{
+            top: 40% !important;
+            left: 10% !important;
+            width: 80% !important;
+            text-align: center;
+        }
+        .three{
+            top: 70% !important;
+            left: 10% !important;
+            width: 80% !important;
+            text-align: center;
+        }
+    }
+} 
+
+@media screen and (max-width: 480px){
+    .footer{
+
+        height: 120vh !important;
+        &-icon{
+            left: 7% !important;
+            .icon{
+                font-size: 20px !important;
+
+            }
+            h1{
+                font-size: 15px !important;
+            }
+        }
+        &-input{
+            left: 47% !important;
+        }
+    }
+    .copy{
+        h2{
+            left: 20% !important;
+            font-size: 10px !important;
+        }
+    }
+    .about{
+        &-pic{
+            left: 10% !important;
+        }
+    }
+    .services{
+        &-img{
+            &-icon{
+                left: 44% !important;
+            }
+        }
+    }
+}
